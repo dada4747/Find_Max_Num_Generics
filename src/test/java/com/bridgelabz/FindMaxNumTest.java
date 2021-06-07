@@ -22,5 +22,4 @@ public class FindMaxNumTest {
         int result = findMaxNum.findMaxNumber(30,50,100);
         Assertions.assertEquals(100, result);
     }
-
 }
