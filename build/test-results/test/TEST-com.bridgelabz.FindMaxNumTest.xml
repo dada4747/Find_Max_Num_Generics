@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.FindMaxNumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-07T18:15:04" hostname="DESKTOP-4IPP4FC" time="0.072">
+<testsuite name="com.bridgelabz.FindMaxNumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-07T18:54:03" hostname="DESKTOP-4IPP4FC" time="0.042">
   <properties/>
-  <testcase name="givenThreeIntegerNumber_shouldReturn_thirdNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.041"/>
-  <testcase name="givenThreeFloatNumber_shouldReturn_thirdNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.005"/>
-  <testcase name="givenThreeIntegerNumber_shouldReturn_secondNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.003"/>
-  <testcase name="givenThreeIntegerNumber_shouldReturn_firstNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.005"/>
-  <testcase name="givenThreeFloatNumber_shouldReturn_firstNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.001"/>
-  <testcase name="givenThreeFloatNumber_shouldReturn_secondNumberIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.002"/>
+  <testcase name="givenThreeString_shouldReturn_firstStringIsMaximum()" classname="com.bridgelabz.FindMaxNumTest" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

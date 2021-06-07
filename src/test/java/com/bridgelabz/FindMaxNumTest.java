@@ -38,4 +38,21 @@ public class FindMaxNumTest {
         float result = findMaxNum.findMaxFloatNumber(3.0F, 5.0F, 10.0F);
         Assertions.assertEquals(10.0, result);
     }
+    @Test
+    void givenThreeString_shouldReturn_firstStringIsMaximum(){
+        String result = findMaxNum.findMaxString("banana","apple","peach");
+        Assertions.assertEquals("banana", result);
+    }
+
+    @Test
+    void givenThreeString_shouldReturn_secondStringIsMaximum(){
+        String result = findMaxNum.findMaxString("apple","banana", "peach");
+        Assertions.assertEquals("banana", result);
+    }
+    @Test
+    void givenThreeString_shouldReturn_thirdStringIsMaximum(){
+        String result = findMaxNum.findMaxString("apple","peach","banana");
+        Assertions.assertEquals("banana", result);
+    }
+
 }
