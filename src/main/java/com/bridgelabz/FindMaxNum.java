@@ -20,7 +20,10 @@ public class FindMaxNum<E extends  Comparable<E>> {
 
     }
     public E findMax(){
-        return findMax(value1, value2, value3);
+        E max = findMax(value1, value2, value3);
+        printMaximum(max);
+        return max;
+
     }
 
     public <E extends Comparable<E>> E findMax(E value1, E value2, E value3) {
@@ -37,6 +40,9 @@ public class FindMaxNum<E extends  Comparable<E>> {
         List<E> list = Arrays.asList(args);
         Collections.sort(list);
         return list.get(list.size()-1);
+    }
+    public static <E> void printMaximum(E max){
+        System.out.println("Maximum Value is:" + max);
     }
 
 }

@@ -79,4 +79,5 @@ public class FindMaxNumTest {
         String result = findMaxNum.findMoreMax("apple", "peach", "banana", "mango", "kiwi");
         Assertions.assertEquals("peach", result);
     }
+
 }
