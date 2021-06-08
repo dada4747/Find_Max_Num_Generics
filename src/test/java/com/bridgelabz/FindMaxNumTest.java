@@ -64,5 +64,19 @@ public class FindMaxNumTest {
         String result = findMaxNum.findMax();
         Assertions.assertEquals("peach", result);
     }
-
+    @Test
+    void givenMultipleIntegerValue_shouldReturn_maximumIntegerValue(){
+        int result = findMaxNum.findMoreMax(1,5,6,3,7,9);
+        Assertions.assertEquals(9, result);
+    }
+    @Test
+    void givenMultipleFloatValue_shouldReturn_maximumFloatValue(){
+        float result = findMaxNum.findMoreMax(2.2F, 6.5F, 5.5F, 8.0F, 4.4F);
+        Assertions.assertEquals(8.0, result);
+    }
+    @Test
+    void givenMultipleStringValue_shouldReturn_maximumStringValue(){
+        String result = findMaxNum.findMoreMax("apple", "peach", "banana", "mango", "kiwi");
+        Assertions.assertEquals("peach", result);
+    }
 }

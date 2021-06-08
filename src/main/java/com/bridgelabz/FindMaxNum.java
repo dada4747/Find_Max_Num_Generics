@@ -33,4 +33,10 @@ public class FindMaxNum<E extends  Comparable<E>> {
         }
         return maxNumber;
     }
+    public static <E extends Comparable<E>> E findMoreMax(E... args){
+        List<E> list = Arrays.asList(args);
+        Collections.sort(list);
+        return list.get(list.size()-1);
+    }
+
 }
